@@ -1,0 +1,8 @@
+version: 0.0
+os: linux
+files:
+  - source: target/sampleproject.war
+    destination: /opt/tomcat-9/webapps
+hooks:
+  ApplicationStart:
+    - location: /opt/tomcat-9/bin/startup.sh
