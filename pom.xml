@@ -63,9 +63,10 @@
     <!-- Findbugs Properties -->
     <findbugs-maven.version>3.0.4</findbugs-maven.version>
     
-    <!-- JaCoCo Properties -->
-    <jacoco-maven.version>0.7.9</jacoco-maven.version>
-    <jacoco.include.package>**/*</jacoco.include.package>
+    <!-- 
+ Properties -->
+    <!-- <jacoco-maven.version>0.7.9</jacoco-maven.version>
+    <jacoco.include.package>**/*</jacoco.include.package> -->
   </properties>
   
   <build>
@@ -137,7 +138,7 @@
       </plugin>
       
       <!-- Build Configuration for JaCoCo -->
-      <plugin>
+      <!-- <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>${jacoco-maven.version}</version>
@@ -149,7 +150,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin> -->
       
     </plugins>
   </build>
