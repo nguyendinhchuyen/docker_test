@@ -67,6 +67,9 @@
  Properties -->
     <!-- <jacoco-maven.version>0.7.9</jacoco-maven.version>
     <jacoco.include.package>**/*</jacoco.include.package> -->
+    
+    <artifactory-maven.version>3.2.3</artifactory-maven.version>
+    
   </properties>
   
   <build>
@@ -151,6 +154,31 @@
           </execution>
         </executions>
       </plugin> -->
+      
+      
+                    <plugin>
+                        <groupId>org.jfrog.buildinfo</groupId>
+                        <artifactId>artifactory-maven-plugin</artifactId>
+                        <version>${artifactory-maven.version}</version>
+                        <executions>
+                            <execution>
+                                <id>build-info</id>
+                                <goals>
+                                    <goal>publish</goal>
+                                </goals>
+                                <configuration>
+                                    <publisher>
+                                        <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
+                                        <username>jenkins-demo</username>
+                                        <password>Adka1725!</password>
+                                        <repoKey>jenkins-demo-release-local</repoKey>
+                                        <snapshotRepoKey>jenkins-demo</snapshotRepoKey>
+                                    </publisher>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+      
       
     </plugins>
   </build>
