@@ -175,8 +175,8 @@
                                         <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
                                         <username>jenkins-demo</username>
                                         <password>Adka1725!</password>
-                                        <repoKey>jenkins-demo-libs-release-local</repoKey>
-                                        <snapshotRepoKey>jenkins-demo-libs-snapshot-local</snapshotRepoKey>
+                                        <repoKey>jenkins-demo-2-libs-release-local</repoKey>
+                                        <snapshotRepoKey>jenkins-demo-2-libs-snapshot-local</snapshotRepoKey>
                                     </publisher>
                                 </configuration>
                             </execution>
