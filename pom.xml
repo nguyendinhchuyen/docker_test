@@ -167,6 +167,10 @@
                                     <goal>publish</goal>
                                 </goals>
                                 <configuration>
+                                  <deployProperties>
+                                    <gradle>awesome</gradle>
+                                    <review.team>qa</review.team>
+                                    </deployProperties>
                                     <publisher>
                                         <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
                                         <username>jenkins-demo</username>
