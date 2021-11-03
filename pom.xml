@@ -172,8 +172,8 @@
                                     <review.team>qa</review.team>
                                     </deployProperties>
                                     <publisher>
-                                        <contextUrl>http://aihara.jfrog.io/artifactory</contextUrl>
-                                        <username>aihara.kensuke@clis.co.jp</username>
+                                        <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
+                                        <username>jenkins-demo</username>
                                         <password>Adka1725!</password>
                                         <repoKey>jenkins-demo-release-local</repoKey>
                                         <snapshotRepoKey>jenkins-demo-libs-snapshot-local</snapshotRepoKey>
