@@ -172,7 +172,7 @@
                                     <review.team>qa</review.team>
                                     </deployProperties>
                                     <publisher>
-                                        <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
+                                        <contextUrl>http://aihara.jfrog.io/artifactory</contextUrl>
                                         <username>aihara.kensuke@clis.co.jp</username>
                                         <password>Adka1725!</password>
                                         <repoKey>jenkins-demo-release-local</repoKey>
