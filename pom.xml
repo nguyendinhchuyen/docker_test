@@ -173,10 +173,10 @@
                                     </deployProperties>
                                     <publisher>
                                         <contextUrl>https://aihara.jfrog.io/artifactory</contextUrl>
-                                        <username>jenkins-demo</username>
+                                        <username>aihara.kensuke@clis.co.jp</username>
                                         <password>Adka1725!</password>
                                         <repoKey>jenkins-demo-release-local</repoKey>
-                                        <snapshotRepoKey>jenkins-demo</snapshotRepoKey>
+                                        <snapshotRepoKey>jenkins-demo-libs-snapshot-local</snapshotRepoKey>
                                     </publisher>
                                 </configuration>
                             </execution>
