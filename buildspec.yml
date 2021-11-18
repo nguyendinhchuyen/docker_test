@@ -11,7 +11,7 @@ phases:
       - echo Building the Docker image...
       - docker build -t ${IMAGE_REPO_NAME} .
       - IMAGE_TAG=$(git rev-parse --short HEAD)
-      - docker tag ${IMAGE_REPO_NAME}:latest aihara.jfrog.io/aihara-test-ocker/${DOCKER_REPOSITORY}:${IMAGE_TAG}
+      - docker tag ${IMAGE_REPO_NAME}:latest aihara.jfrog.io/aihara-test-docker/${DOCKER_REPOSITORY}:${IMAGE_TAG}
   post_build:
     commands:
       - echo Build completed on `date`
