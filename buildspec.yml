@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - docker login cicdjenkinshiguchiteam.jfrog.io -u ${JFROG_USER_NAME} -p ${JFROG_PASS}
+      - docker login cicdjenkinshiguchiteam.jfrog.io -u ${jenkins} -p ${Cicd@123}
   build:
     commands:
       - echo Build started on `date`
