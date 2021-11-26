@@ -17,5 +17,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push cicdjenkinshiguchiteam.jfrog.io/artifactory/higuchiteam-docker-docker/${DOCKER_REPOSITORY}:${IMAGE_TAG}
+      - docker push cicdjenkinshiguchiteam.jfrog.io/higuchiteam-docker-docker/${DOCKER_REPOSITORY}:${IMAGE_TAG}
       
